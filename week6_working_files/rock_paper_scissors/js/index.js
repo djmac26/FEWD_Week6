@@ -12,10 +12,22 @@ function play(humanPlay) {
 
   //update the #status to display who played what
   //use jQuery .html()
+  $("#status").html("You selected "+humanPlay+". The bot selected "+computerPlay);
 
   //write a conditional block for a human "rock" choice
   //this will have a nested conditional for the "computer" choice
-  //use jQuery .append()
+  //use jQuery .append() to update the #status
+  if (humanPlay === "rock"){
+    if (computerPlay === "rock"){
+
+    }else if (computerPlay === "paper"){
+
+    }else if (computerPlay === "scissors"){
+
+    }else if (humanPlay === "paper"){
+
+    }else if (humanPlay === "scissors"){
+  }
 
 
   //write a conditional block for a human "paper" choice
